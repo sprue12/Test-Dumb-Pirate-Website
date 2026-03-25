@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pirata+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-pirate: "Pirata One", system-ui;
+  
+  --color-gold: #d4af37;
+  --color-wood: #3e2723;
+  --color-sea: #006994;
+  --color-paper: #f5f2ed;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: #0a0502;
+  color: #f5f2ed;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.paper-texture {
+  background-image: url("https://www.transparenttextures.com/patterns/old-map.png");
+}
+
